@@ -1,0 +1,8 @@
+# Vim
+*.swp
+
+# OSX
+*.DS_Store
+
+# iPython
+*.ipynb.check*

@@ -77,7 +77,7 @@ $('#fileInput').change(function(){
 });
 
 function readFile(userFile){
-
+  console.log(userFile);
   if (userFile.type === 'application/json'){
 
     // reading them files
@@ -214,3 +214,4 @@ $('.ui.undo').click(function(){
   resetCamera();
 });
 
+//userPlot();
