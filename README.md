@@ -9,6 +9,7 @@ Explore high dimensionality data via reduction and exploration using Three.js. A
 
 
 ## How
+Simply start a server by executing the binary. You can then upload your own dataset to plot, or choose one of the included exampes.
 
 ```
 $ ./dreda-cli --help
@@ -67,7 +68,7 @@ E.g.
 
 ## Building
 
-To build Dreda you will need (fileb0x)[https://github.com/UnnoTed/fileb0x] installed. This tool is used to package the static files into a `.go` file to compile.
+To build Dreda you will need [fileb0x](https://github.com/UnnoTed/fileb0x) installed. This tool is used to package the static files into a `.go` file to compile.
 
 1. Clone the repository.
 ```
