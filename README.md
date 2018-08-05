@@ -1,12 +1,30 @@
 # DREDA
-dimensionality reduced exploratory data analysis
-http://metasyn.pw/dreda/
 
-# What
+Beautifully visualize any 3D dataset in the browser.
 
-Explore high dimensionality data via reduction and exploration using Three.js
+## What
 
-# Why
+Explore high dimensionality data via reduction and exploration using Three.js. A stand-alone binary file is produced that hosts the server and serves up all necessary static files.
+![screenshot from 2018-08-03 22-04-36](https://user-images.githubusercontent.com/10864294/43665793-41c0e208-9769-11e8-933e-2ef34b3ab20b.png)
+
+
+## How
+
+```
+$ ./dreda-cli --help
+```
+
+```
+Usage: ./dreda-cli [flags]
+
+Optional flags:
+  -address string
+        Address to bind to. (default "127.0.0.1")
+  -port int
+        Port to bind to. (default 8000)
+```
+
+## Why
 
 Sometimes you have too many fields, features, columns... dimensions, to your data. 
 
@@ -46,15 +64,27 @@ E.g.
     }
 }
 ```
-# How
 
-Clone, run `python -m SimpleHTTPSever`, and open `localhost:8000` in your browser.  
-Open index.html and click "Plot Data".
+## Building
 
-## Authors 
+To build Dreda you will need (fileb0x)[https://github.com/UnnoTed/fileb0x] installed. This tool is used to package the static files into a `.go` file to compile.
 
-* Xander Johnson
+1. Clone the repository.
+```
+git clone ...
+```
 
-## License
-WTFPL
+2. Make the application. This will run fileb0x and compile the binary.
+```
+make
+```
 
+3. The binary can now be run via
+```
+./dreda-cli
+```
+
+## Authors
+
+- Xander Johnson
+- Dom Hudson
