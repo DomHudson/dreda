@@ -13,7 +13,7 @@ func getArguments() (*string, *int) {
 	address := flag.String("address", "127.0.0.1", "Address to bind to.")
 	port := flag.Int("port", 8000, "Port to bind to.")
 	flag.Parse()
-	
+
 	if flag.NArg() != 0 {
 		flag.Usage()
 		os.Exit(1)
@@ -34,7 +34,7 @@ func main() {
 
 	app := visualise.App{
 		Addr: *address,
-		Port: *port,	
+		Port: *port,
 	}
 	app.Run()
 }

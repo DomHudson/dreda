@@ -9,8 +9,8 @@ import (
 )
 
 type App struct {
-	Addr    string
-	Port    int
+	Addr string
+	Port int
 }
 
 // Run starts a server and runs the application.
