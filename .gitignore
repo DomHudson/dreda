@@ -1,3 +1,7 @@
+# Created by make
+dreda-cli
+static/
+
 # Vim
 *.swp
 
