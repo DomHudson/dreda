@@ -2,6 +2,7 @@
 
 Beautifully visualize any 3D dataset in the browser.
 
+
 ## What
 
 Explore high dimensionality data via reduction and exploration using Three.js. A stand-alone binary file is produced that hosts the server and serves up all necessary static files.
@@ -9,7 +10,7 @@ Explore high dimensionality data via reduction and exploration using Three.js. A
 
 
 ## How
-Simply start a server by executing the binary. You can then upload your own dataset to plot, or choose one of the included exampes.
+[Download the v0.1.0 Linux pre-compile binary](https://github.com/DomHudson/dreda/releases/download/v0.1.0/dreda-cli-linux-v0.1.0). Simply start a server by executing the binary. You can then upload your own dataset to plot, or choose one of the included exampes.
 
 ```
 $ ./dreda-cli --help
