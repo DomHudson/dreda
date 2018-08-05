@@ -115,8 +115,8 @@ function init(){
   // add grid
   var gridxz = new THREE.GridHelper(edge,edge*.1);          //size, step
   gridxz.setColors(
-    new THREE.Color(0x323232),                              //chill green
-    new THREE.Color(0x323232)
+    new THREE.Color(0x666666),                              //chill green
+    new THREE.Color(0x666666)
   );
   gridxz.position.set(0,0,0);
   scene.add(gridxz);
