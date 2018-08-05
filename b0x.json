@@ -54,7 +54,7 @@
     //
     // type: bool
     // default: false
-    "compress": false,
+    "compress": true,
 
     // valid values are:
     // -> "NoCompression"
@@ -64,7 +64,7 @@
     //
     // type: string
     // default: "DefaultCompression" // when: Compress == true && Method == ""
-    "method": "",
+    "method": "BestCompression",
 
     // true = do it yourself (the file is written as gzip compressed file into the memory file system)
     // false = decompress files at run time (before writing file into memory file system)
