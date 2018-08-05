@@ -103,6 +103,8 @@ function init(){
   // controls
   controls = new THREE.OrbitControls(camera, document, renderer.domElement);
   controls.autoRotate = true;
+  controls.autoRotateSpeed = 1.0;
+  //controls.enableKeys = true;
 
   // stats
   // TODO: Add Stats
